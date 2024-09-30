@@ -162,6 +162,7 @@ impl FromTypst<typst::visualize::Image> for Image {
             },
             ImageFormat::Vector(e) => match e {
                 VectorFormat::Svg => "svg+xml",
+                VectorFormat::Rnote => "rnote",
             },
         };
 
