@@ -231,11 +231,11 @@ undocumented_unsafe_blocks = "warn"
 # typst-pdf = { git = "https://github.com/Myriad-Dreamin/typst.git", branch = "typst-ts-v0.10.0" }
 
 # comemo = { git = "https://github.com/Dherse/comemo", rev = "15c8d5b" }
-typst = { git = "https://github.com/Nxllpointer/typst.git", branch = "rnote-tinymist-v0.12.0" }
-typst-syntax = { git = "https://github.com/Nxllpointer/typst.git", branch = "rnote-tinymist-v0.12.0" }
-typst-ide = { git = "https://github.com/Nxllpointer/typst.git", branch = "rnote-tinymist-v0.12.0" }
-typst-svg = { git = "https://github.com/Nxllpointer/typst.git", branch = "rnote-tinymist-v0.12.0" }
-typst-pdf = { git = "https://github.com/Nxllpointer/typst.git", branch = "rnote-tinymist-v0.12.0" }
+typst = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
+typst-syntax = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
+typst-ide = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
+typst-svg = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
+typst-pdf = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
 
 # comemo = { path = "../comemo" }
 # typst = { path = "../typst/crates/typst" }
@@ -245,9 +245,3 @@ typst-pdf = { git = "https://github.com/Nxllpointer/typst.git", branch = "rnote-
 # typst-pdf = { path = "../typst/crates/typst-pdf" }
 
 # fontdb = { path = "../fontdb" }
-
-# Patches inherited from rnote
-piet = { git = "https://github.com/flxzt/piet", rev = "17fd59f260db3c54029a8288178e32f9f1742be2" }
-piet-cairo = { git = "https://github.com/flxzt/piet", rev = "17fd59f260db3c54029a8288178e32f9f1742be2" }
-roughr = { git = "https://github.com/orhanbalci/rough-rs", rev = "0701ce0b874061707ef726533b43e1806af8b666" }
-rough_piet = { git = "https://github.com/orhanbalci/rough-rs", rev = "0701ce0b874061707ef726533b43e1806af8b666" }
