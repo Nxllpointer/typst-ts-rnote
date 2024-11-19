@@ -1,14 +1,13 @@
 {
   "name": "@myriaddreamin/typst.vue3",
-  "private": true,
-  "version": "0.5.0-rc8",
+  "version": "0.5.0-rc9",
   "type": "module",
   "main": "src/Typst.vue",
   "scripts": {
     "dev": "vite -c vite.config.dev.ts",
     "build": "vite build",
     "publish:dry": "npm publish --dry-run --access public",
-    "publish:lib": "exit 0"
+    "publish:lib": "npm publish --access public || exit 0"
   },
   "peerDependencies": {
     "vue": "^3.4.31"
