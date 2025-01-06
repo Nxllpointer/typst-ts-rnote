@@ -231,11 +231,11 @@ undocumented_unsafe_blocks = "warn"
 # typst-pdf = { git = "https://github.com/Myriad-Dreamin/typst.git", branch = "typst-ts-v0.10.0" }
 
 # comemo = { git = "https://github.com/Dherse/comemo", rev = "15c8d5b" }
-typst = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
-typst-syntax = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
-typst-ide = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
-typst-svg = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
-typst-pdf = { git = "https://github.com/Nxllpointer/typst.git", rev = "f4433015c0b09d1a2512dde368bf2e19d9369c41" }
+typst = { git = "https://github.com/Nxllpointer/typst.git", rev = "274002ea5babd082b9d2e9fe5700031296673078" }
+typst-syntax = { git = "https://github.com/Nxllpointer/typst.git", rev = "274002ea5babd082b9d2e9fe5700031296673078" }
+typst-ide = { git = "https://github.com/Nxllpointer/typst.git", rev = "274002ea5babd082b9d2e9fe5700031296673078" }
+typst-svg = { git = "https://github.com/Nxllpointer/typst.git", rev = "274002ea5babd082b9d2e9fe5700031296673078" }
+typst-pdf = { git = "https://github.com/Nxllpointer/typst.git", rev = "274002ea5babd082b9d2e9fe5700031296673078" }
 
 # comemo = { path = "../comemo" }
 # typst = { path = "../typst/crates/typst" }

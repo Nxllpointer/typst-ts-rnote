@@ -3967,6 +3967,26 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "22686f4785f02a4fcc856d3b3bb19bf6c8160d103f7a99cc258bddd0251dc7f2"
 
 [[package]]
+name = "pollster"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2f3a9f18d041e6d0e102a0a46750538147e5e8992d3b4873aaafee2520b00ce3"
+dependencies = [
+ "pollster-macro",
+]
+
+[[package]]
+name = "pollster-macro"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ac5da421106a50887c5b51d20806867db377fbb86bacf478ee0500a912e0c113"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.87",
+]
+
+[[package]]
 name = "poppler-rs"
 version = "0.24.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6169,7 +6189,7 @@ checksum = "42ff0bf0c66b8238c6f3b578df37d0b7848e55df8577b3f74f92a69acceeb825"
 [[package]]
 name = "typst"
 version = "0.12.0"
-source = "git+https://github.com/Nxllpointer/typst.git?rev=f4433015c0b09d1a2512dde368bf2e19d9369c41#f4433015c0b09d1a2512dde368bf2e19d9369c41"
+source = "git+https://github.com/Nxllpointer/typst.git?rev=274002ea5babd082b9d2e9fe5700031296673078#274002ea5babd082b9d2e9fe5700031296673078"
 dependencies = [
  "arrayvec",
  "az",
@@ -6200,6 +6220,7 @@ dependencies = [
  "palette",
  "phf 0.11.2",
  "png",
+ "pollster 0.4.0",
  "portable-atomic",
  "qcms",
  "rayon",
@@ -6216,7 +6237,6 @@ dependencies = [
  "stacker",
  "syntect",
  "time",
- "tokio",
  "toml",
  "ttf-parser",
  "two-face",
@@ -6250,7 +6270,7 @@ source = "git+https://github.com/typst/typst-dev-assets?tag=v0.12.0#b07d1560143d
 [[package]]
 name = "typst-ide"
 version = "0.12.0"
-source = "git+https://github.com/Nxllpointer/typst.git?rev=f4433015c0b09d1a2512dde368bf2e19d9369c41#f4433015c0b09d1a2512dde368bf2e19d9369c41"
+source = "git+https://github.com/Nxllpointer/typst.git?rev=274002ea5babd082b9d2e9fe5700031296673078#274002ea5babd082b9d2e9fe5700031296673078"
 dependencies = [
  "comemo",
  "ecow",
@@ -6264,7 +6284,7 @@ dependencies = [
 [[package]]
 name = "typst-macros"
 version = "0.12.0"
-source = "git+https://github.com/Nxllpointer/typst.git?rev=f4433015c0b09d1a2512dde368bf2e19d9369c41#f4433015c0b09d1a2512dde368bf2e19d9369c41"
+source = "git+https://github.com/Nxllpointer/typst.git?rev=274002ea5babd082b9d2e9fe5700031296673078#274002ea5babd082b9d2e9fe5700031296673078"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -6275,7 +6295,7 @@ dependencies = [
 [[package]]
 name = "typst-pdf"
 version = "0.12.0"
-source = "git+https://github.com/Nxllpointer/typst.git?rev=f4433015c0b09d1a2512dde368bf2e19d9369c41#f4433015c0b09d1a2512dde368bf2e19d9369c41"
+source = "git+https://github.com/Nxllpointer/typst.git?rev=274002ea5babd082b9d2e9fe5700031296673078#274002ea5babd082b9d2e9fe5700031296673078"
 dependencies = [
  "arrayvec",
  "base64 0.22.1",
@@ -6302,7 +6322,7 @@ dependencies = [
 [[package]]
 name = "typst-svg"
 version = "0.12.0"
-source = "git+https://github.com/Nxllpointer/typst.git?rev=f4433015c0b09d1a2512dde368bf2e19d9369c41#f4433015c0b09d1a2512dde368bf2e19d9369c41"
+source = "git+https://github.com/Nxllpointer/typst.git?rev=274002ea5babd082b9d2e9fe5700031296673078#274002ea5babd082b9d2e9fe5700031296673078"
 dependencies = [
  "base64 0.22.1",
  "comemo",
@@ -6319,7 +6339,7 @@ dependencies = [
 [[package]]
 name = "typst-syntax"
 version = "0.12.0"
-source = "git+https://github.com/Nxllpointer/typst.git?rev=f4433015c0b09d1a2512dde368bf2e19d9369c41#f4433015c0b09d1a2512dde368bf2e19d9369c41"
+source = "git+https://github.com/Nxllpointer/typst.git?rev=274002ea5babd082b9d2e9fe5700031296673078#274002ea5babd082b9d2e9fe5700031296673078"
 dependencies = [
  "ecow",
  "once_cell",
@@ -6336,7 +6356,7 @@ dependencies = [
 [[package]]
 name = "typst-timing"
 version = "0.12.0"
-source = "git+https://github.com/Nxllpointer/typst.git?rev=f4433015c0b09d1a2512dde368bf2e19d9369c41#f4433015c0b09d1a2512dde368bf2e19d9369c41"
+source = "git+https://github.com/Nxllpointer/typst.git?rev=274002ea5babd082b9d2e9fe5700031296673078#274002ea5babd082b9d2e9fe5700031296673078"
 dependencies = [
  "parking_lot",
  "serde",
@@ -6513,7 +6533,7 @@ dependencies = [
  "elsa",
  "hex",
  "js-sys",
- "pollster",
+ "pollster 0.3.0",
  "reflexo",
  "reflexo-typst",
  "reflexo-typst2vec",
@@ -6592,7 +6612,7 @@ dependencies = [
 [[package]]
 name = "typst-utils"
 version = "0.12.0"
-source = "git+https://github.com/Nxllpointer/typst.git?rev=f4433015c0b09d1a2512dde368bf2e19d9369c41#f4433015c0b09d1a2512dde368bf2e19d9369c41"
+source = "git+https://github.com/Nxllpointer/typst.git?rev=274002ea5babd082b9d2e9fe5700031296673078#274002ea5babd082b9d2e9fe5700031296673078"
 dependencies = [
  "once_cell",
  "portable-atomic",
